@@ -1,0 +1,54 @@
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.about img{
+    width: 400px;
+    align-items: center;
+    margin-top: 150px;
+}
+.about h1{
+    width: 70%;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 600;
+}
+.about span{
+    background: linear-gradient(276deg , #c55f00 10% , #6d008b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about p{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    line-height: 40px;
+}
+.about-action{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.connectme{
+    padding: 25px 35px;
+    border-radius: 50px;
+    background: linear-gradient(276deg , #c55f00 10% , #6d008b 100%);
+    cursor: pointer;
+}
+.connectme:hover{
+    border: 2px solid white;
+}
+.myresume{
+    padding: 24px 55px;
+    border-radius: 50px;
+    border: 2px solid white ;
+    background-color: black;
+}
+.myresume:hover{
+    border: 2px solid purple;
+}
