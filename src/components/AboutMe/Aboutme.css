@@ -52,3 +52,35 @@
 .myresume:hover{
     border: 2px solid purple;
 }
+
+@media(max-width:768px){
+    .about img{
+        border-bottom: 120px;
+        width: 260px;
+    }
+    .about h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .about p{
+        margin: 10px 0px;
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .about-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .connectme{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .myresume{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+}

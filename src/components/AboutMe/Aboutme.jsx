@@ -1,12 +1,12 @@
 import React from "react";
 import "./Aboutme.css";
 import mouli from "../../assets/mouli.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Aboutme = () => {
   return (
     <div>
-      
-      <div className="about">
+      <div id="Home" className="about">
       <img src={mouli} alt="" />
         <h1>Hello!  <span>I'm Mouli</span> , a devoloper based in salem.</h1>
         <p>
@@ -14,8 +14,10 @@ const Aboutme = () => {
           devoloping websites
         </p>
         <div className="about-action">
-          <div className="connectme">Connect with me</div>
-          <div className="myresume">My resume</div>
+          <div className="connectme">
+          <AnchorLink className='anchor-link' offset={50} href='#Contact'> Connect with me </AnchorLink>
+          </div>
+        <div className="myresume">My resume</div>
         </div>
       </div>
     </div>
