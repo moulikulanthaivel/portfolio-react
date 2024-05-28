@@ -55,8 +55,8 @@
 
 @media(max-width:768px){
     .about img{
-        border-bottom: 120px;
-        width: 260px;
+        border-bottom: 130px;
+        width: 160px;
     }
     .about h1{
         margin-top: 50px;
