@@ -3,6 +3,7 @@ import "./Mywork.css"
 import theme from "../../assets/theme_pattern.svg"
 import Mywork_Data from "../../assets/mywork_data" 
 import arrowIcon from '../../assets/arrow_icon.svg'
+import { Link } from 'react-router-dom'
 
 const Mywork = () => {
   return (
@@ -13,7 +14,7 @@ const Mywork = () => {
         </div>
         <div className="mywork-container">
             {Mywork_Data.map((work,index)=>{
-                return <img key={index} src={work.w_img} alt="" />
+                return <a href={work.w_link}>  <img key={index} src={work.w_img} alt="" /></a>
             })}
         </div>
         <div className="mywork-showmore">

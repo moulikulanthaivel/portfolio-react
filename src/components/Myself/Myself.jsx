@@ -18,8 +18,10 @@ const Myself = () => {
             </div>
             <div className="myself-right">
                 <div className="myself-para">
-                    <p>Lorem, ipsum giat poreritatis, totam eaque ipsat dolor voluptatum blanditiis est earum totam eaque ipsat dolor voluptatum blanditiis esttotam eaque ipsat dolor voluptatum blanditiis est earum q earum qquidem eos nemo officiis optio quaerat ea repellendus! Eos assumenda rem modi, cum nesciunt tempora cumque? Dolorem delectus inventore possimus?</p>
-                     <p>Loremsamus perspiciatis aut tenet, quis doloremque voluptas ea corporis sat dolor voluptatum blanditiis est earum qu vel sat dolor voluptatum blantotam eaquetotam eaque ipsat dolor voluptatum blanditiis est earum q ipsat dolor voluptatum blanditiis est earum qditiis est earum qudolore. Dr.</p>
+                    <p>Highly motivated frontend developer seeking internship or entry-level position to apply and enhance skills in web
+development, user interface design, and front-end technologies.Eager to contribute to a dynamic team and gain
+hands-on experience in a professional environment.</p>
+                     {/* <p>Loremsamus perspiciatis aut tenet, quis doloremque voluptas ea corporis sat dolor voluptatum blanditiis est earum qu vel sat dolor voluptatum blantotam eaquetotam eaque ipsat dolor voluptatum blanditiis est earum q ipsat dolor voluptatum blanditiis est earum qditiis est earum qudolore. Dr.</p> */}
 
                 </div>
                 <div className="myself-skills">
